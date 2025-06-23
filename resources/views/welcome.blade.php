@@ -19,6 +19,8 @@
             </div>
         @endforeach
     </div>
-
+    @foreach($sliderImages as $image)
+        <img src="{{$image}}" alt="">
+    @endforeach
 </body>
 </html>
